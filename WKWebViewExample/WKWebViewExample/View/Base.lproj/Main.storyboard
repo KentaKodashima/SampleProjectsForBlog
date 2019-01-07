@@ -21,6 +21,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWz-YU-ShH">
                                 <rect key="frame" x="59" y="318.5" width="257" height="30"/>
                                 <state key="normal" title="Go to see the WKWebView document"/>
+                                <connections>
+                                    <segue destination="FT4-Tp-AUL" kind="show" identifier="goToDetail" id="w5E-uo-JIV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -33,6 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="178" y="106"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="tSk-AH-bWy">
@@ -42,9 +46,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jsp-5M-UBa">
-                                <rect key="frame" x="16" y="37" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jsp-5M-UBa">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -53,12 +56,21 @@
                             </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jsp-5M-UBa" firstAttribute="leading" secondItem="PtU-aJ-36x" secondAttribute="leading" id="OqV-wA-wqM"/>
+                            <constraint firstItem="PtU-aJ-36x" firstAttribute="trailing" secondItem="Jsp-5M-UBa" secondAttribute="trailing" id="bQ6-d3-zuV"/>
+                            <constraint firstItem="PtU-aJ-36x" firstAttribute="bottom" secondItem="Jsp-5M-UBa" secondAttribute="bottom" id="cZO-rS-Bor"/>
+                            <constraint firstItem="Jsp-5M-UBa" firstAttribute="top" secondItem="PtU-aJ-36x" secondAttribute="top" id="fWo-yk-VBA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PtU-aJ-36x"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="Jsp-5M-UBa" id="sHB-DA-THI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HIy-bX-xmD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="862" y="27"/>
+            <point key="canvasLocation" x="958" y="106"/>
         </scene>
     </scenes>
 </document>
