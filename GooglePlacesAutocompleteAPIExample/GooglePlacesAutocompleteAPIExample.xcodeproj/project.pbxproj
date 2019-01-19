@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F620E486E1FE758FE84C24E /* Pods_GooglePlacesAutocompleteAPIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6D287E4D84C637CCE6FBE5 /* Pods_GooglePlacesAutocompleteAPIExample.framework */; };
+		ED8475F421F2B3E3008C13D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8475F321F2B3E3008C13D4 /* AppDelegate.swift */; };
+		ED8475F621F2B3E3008C13D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8475F521F2B3E3008C13D4 /* ViewController.swift */; };
+		ED8475F921F2B3E3008C13D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8475F721F2B3E3008C13D4 /* Main.storyboard */; };
+		ED8475FB21F2B3E4008C13D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8475FA21F2B3E4008C13D4 /* Assets.xcassets */; };
+		ED8475FE21F2B3E4008C13D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8475FC21F2B3E4008C13D4 /* LaunchScreen.storyboard */; };
+		ED84760821F2B4BE008C13D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84760721F2B4BE008C13D4 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		640E41D04D8992EB071AC18C /* Pods-GooglePlacesAutocompleteAPIExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePlacesAutocompleteAPIExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GooglePlacesAutocompleteAPIExample/Pods-GooglePlacesAutocompleteAPIExample.release.xcconfig"; sourceTree = "<group>"; };
+		7F6D287E4D84C637CCE6FBE5 /* Pods_GooglePlacesAutocompleteAPIExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePlacesAutocompleteAPIExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69AD24EA24CC39F83718C23 /* Pods-GooglePlacesAutocompleteAPIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePlacesAutocompleteAPIExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GooglePlacesAutocompleteAPIExample/Pods-GooglePlacesAutocompleteAPIExample.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8475F021F2B3E3008C13D4 /* GooglePlacesAutocompleteAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlacesAutocompleteAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8475F321F2B3E3008C13D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8475F521F2B3E3008C13D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED8475F821F2B3E3008C13D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8475FA21F2B3E4008C13D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8475FD21F2B3E4008C13D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8475FF21F2B3E4008C13D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED84760721F2B4BE008C13D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8475ED21F2B3E3008C13D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F620E486E1FE758FE84C24E /* Pods_GooglePlacesAutocompleteAPIExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95E60536C760888D1F416958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C69AD24EA24CC39F83718C23 /* Pods-GooglePlacesAutocompleteAPIExample.debug.xcconfig */,
+				640E41D04D8992EB071AC18C /* Pods-GooglePlacesAutocompleteAPIExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8089737858B59624494FA5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D287E4D84C637CCE6FBE5 /* Pods_GooglePlacesAutocompleteAPIExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8475E721F2B3E3008C13D4 = {
+			isa = PBXGroup;
+			children = (
+				ED8475F221F2B3E3008C13D4 /* GooglePlacesAutocompleteAPIExample */,
+				ED8475F121F2B3E3008C13D4 /* Products */,
+				95E60536C760888D1F416958 /* Pods */,
+				D8089737858B59624494FA5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8475F121F2B3E3008C13D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8475F021F2B3E3008C13D4 /* GooglePlacesAutocompleteAPIExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8475F221F2B3E3008C13D4 /* GooglePlacesAutocompleteAPIExample */ = {
+			isa = PBXGroup;
+			children = (
+				ED84760521F2B481008C13D4 /* Supporting Files */,
+				ED8475F321F2B3E3008C13D4 /* AppDelegate.swift */,
+				ED8475F521F2B3E3008C13D4 /* ViewController.swift */,
+				ED8475F721F2B3E3008C13D4 /* Main.storyboard */,
+				ED8475FF21F2B3E4008C13D4 /* Info.plist */,
+			);
+			path = GooglePlacesAutocompleteAPIExample;
+			sourceTree = "<group>";
+		};
+		ED84760521F2B481008C13D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED8475FA21F2B3E4008C13D4 /* Assets.xcassets */,
+				ED8475FC21F2B3E4008C13D4 /* LaunchScreen.storyboard */,
+				ED84760721F2B4BE008C13D4 /* Constants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8475EF21F2B3E3008C13D4 /* GooglePlacesAutocompleteAPIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED84760221F2B3E4008C13D4 /* Build configuration list for PBXNativeTarget "GooglePlacesAutocompleteAPIExample" */;
+			buildPhases = (
+				709550548D7CD0D7E152A07D /* [CP] Check Pods Manifest.lock */,
+				ED8475EC21F2B3E3008C13D4 /* Sources */,
+				ED8475ED21F2B3E3008C13D4 /* Frameworks */,
+				ED8475EE21F2B3E3008C13D4 /* Resources */,
+				444F576B77588402A628B7C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlacesAutocompleteAPIExample;
+			productName = GooglePlacesAutocompleteAPIExample;
+			productReference = ED8475F021F2B3E3008C13D4 /* GooglePlacesAutocompleteAPIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8475E821F2B3E3008C13D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kenta Kodashima";
+				TargetAttributes = {
+					ED8475EF21F2B3E3008C13D4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ED8475EB21F2B3E3008C13D4 /* Build configuration list for PBXProject "GooglePlacesAutocompleteAPIExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8475E721F2B3E3008C13D4;
+			productRefGroup = ED8475F121F2B3E3008C13D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8475EF21F2B3E3008C13D4 /* GooglePlacesAutocompleteAPIExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8475EE21F2B3E3008C13D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8475FE21F2B3E4008C13D4 /* LaunchScreen.storyboard in Resources */,
+				ED8475FB21F2B3E4008C13D4 /* Assets.xcassets in Resources */,
+				ED8475F921F2B3E3008C13D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		444F576B77588402A628B7C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GooglePlacesAutocompleteAPIExample/Pods-GooglePlacesAutocompleteAPIExample-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GooglePlacesAutocompleteAPIExample/Pods-GooglePlacesAutocompleteAPIExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709550548D7CD0D7E152A07D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePlacesAutocompleteAPIExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8475EC21F2B3E3008C13D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8475F621F2B3E3008C13D4 /* ViewController.swift in Sources */,
+				ED8475F421F2B3E3008C13D4 /* AppDelegate.swift in Sources */,
+				ED84760821F2B4BE008C13D4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED8475F721F2B3E3008C13D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8475F821F2B3E3008C13D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8475FC21F2B3E4008C13D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8475FD21F2B3E4008C13D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED84760021F2B3E4008C13D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED84760121F2B3E4008C13D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED84760321F2B3E4008C13D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69AD24EA24CC39F83718C23 /* Pods-GooglePlacesAutocompleteAPIExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4XVL227B6;
+				INFOPLIST_FILE = GooglePlacesAutocompleteAPIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentakodashima.GooglePlacesAutocompleteAPIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED84760421F2B3E4008C13D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640E41D04D8992EB071AC18C /* Pods-GooglePlacesAutocompleteAPIExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4XVL227B6;
+				INFOPLIST_FILE = GooglePlacesAutocompleteAPIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentakodashima.GooglePlacesAutocompleteAPIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8475EB21F2B3E3008C13D4 /* Build configuration list for PBXProject "GooglePlacesAutocompleteAPIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED84760021F2B3E4008C13D4 /* Debug */,
+				ED84760121F2B3E4008C13D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED84760221F2B3E4008C13D4 /* Build configuration list for PBXNativeTarget "GooglePlacesAutocompleteAPIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED84760321F2B3E4008C13D4 /* Debug */,
+				ED84760421F2B3E4008C13D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8475E821F2B3E3008C13D4 /* Project object */;
+}
